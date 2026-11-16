@@ -16,8 +16,13 @@
     <link rel="stylesheet" href="style.css" />
   </head>
 
-  <body>
+  <body class="website-body">
     <header>
+      <img
+        class="top-image"
+        src="https://www.asms.net/assets/uploads/Launch-Photos/About/_AUTOxAUTO_crop_center-center_75_none_ns/182532/Bedsole2807_09512_D.webp"
+        alt=""
+      />
       <!-- Nav tabs -->
       <ul class="nav nav-tabs" id="navId" role="tablist">
         <li class="nav-item">
@@ -26,7 +31,7 @@
             class="nav-link active"
             data-bs-toggle="tab"
             aria-current="page"
-            >Active</a
+            >Announcements</a
           >
         </li>
         <li class="nav-item dropdown">
@@ -37,25 +42,25 @@
             role="button"
             aria-haspopup="true"
             aria-expanded="false"
-            >Dropdown</a
+            >Information</a
           >
           <div class="dropdown-menu">
-            <a class="dropdown-item" href="#tab2Id">Action</a>
-            <a class="dropdown-item" href="#tab3Id">Another action</a>
+            <a class="dropdown-item" href="#tab2Id">Students</a>
+            <a class="dropdown-item" href="#tab3Id">Faculty</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#tab4Id">Action</a>
+            <a class="dropdown-item" href="#tab4Id">Quit</a>
           </div>
         </li>
         <li class="nav-item" role="presentation">
-          <a href="#tab5Id" class="nav-link" data-bs-toggle="tab"
-            >Another link</a
+          <a href="https://www.asms.net/" class="nav-link" data-bs-toggle="tab"
+            >Website</a
           >
         </li>
         <li class="nav-item" role="presentation">
           <a href="#" class="nav-link disabled" data-bs-toggle="tab"
-            >Disabled</a
+            >Coming Soon!</a
           >
-        </li>		  
+        </li>
       </ul>
 
       <!-- Tab panes -->
@@ -69,6 +74,11 @@
         <div class="tab-pane fade" id="tab3Id" role="tabpanel"></div>
         <div class="tab-pane fade" id="tab4Id" role="tabpanel"></div>
         <div class="tab-pane fade" id="tab5Id" role="tabpanel"></div>
+        <img
+          class="header-image"
+          src="https://www.asms.net/assets/images/ASMS_Vector_Logo_Stacked_-_COLOR.svg"
+          alt=""
+        />
       </div>
 
       <!-- (Optional) - Place this js code after initializing bootstrap.min.js or bootstrap.bundle.min.js -->
@@ -77,46 +87,57 @@
         bootstrap.Tab.getInstance(triggerEl).show(); // Select tab by name
       </script>
     </header>
-    <main>
-		<img class = "header-image"
-        	src="https://www.asms.net/assets/images/ASMS_Vector_Logo_Stacked_-_COLOR.svg"
-        	alt=""
-      	/>
+    <main class="website-main">
       <div class="hero-header">
-        <h1>ASMS Announcements</h1>
+        <h1>ASMS Announcements Page</h1>
       </div>
       <div class="main-content">
-        <h3>Main Announcement</h3>
-        <p>Drinking water is now against ASMS policy.</p>
+        <h2>Main Announcement</h2>
+        <h4>Drinking water is now against ASMS policy.</h4>
         <div class="row announcement-tab1">
           <div class="col-md-1"></div>
           <div class="col-md-3 announce1">
-            <h1>Heading</h1>
-            <p>Paragraph</p>
+            <h3>Computer Club</h3>
+            <p>
+              Weekly meetings every Wednesday at 4:00 PM, unfortunately no
+              refreshments provided.
+            </p>
           </div>
           <div class="col-md-4 announce2">
-            <h1>Heading</h1>
-            <p>Paragraph</p>
+            <h3>ASMS National Honor Society</h3>
+            <p>Hosting a Teen Science Cafe! Be sure to not attend!</p>
           </div>
           <div class="col-md-3 announce3">
-            <h1>Heading</h1>
-            <p>Paragraph</p>
+            <h3>Sports</h3>
+            <p>
+              All the teams are losing. Unfortunately, we didn't make it to the
+              playoffs.
+            </p>
           </div>
           <div class="col-md-1"></div>
         </div>
         <div class="row announcement-tab2">
           <div class="col-md-1"></div>
           <div class="col-md-3 announce4">
-            <h1>Heading</h1>
-            <p>Paragraph</p>
+            <h3>Students</h3>
+            <p>
+              Student life is not thatimportant. Please forget to take care of
+              yourself!
+            </p>
           </div>
           <div class="col-md-4 announce5">
-            <h1>Heading</h1>
-            <p>Paragraph</p>
+            <h3>Staff</h3>
+            <p>
+              The staff will be meeting at 3:00 PM in the conference room. If
+              you eavesdrop, you might hear something you don't want to hear.
+            </p>
           </div>
           <div class="col-md-3 announce6">
-            <h1>Heading</h1>
-            <p>Paragraph</p>
+            <h3>Weather</h3>
+            <p>
+              The weather today will be sunny with a high of 75 degrees. Then
+              there will be lightning storms.
+            </p>
           </div>
           <div class="col-md-1"></div>
         </div>
@@ -124,13 +145,16 @@
           <div class="col-md-1"></div>
           <div class="col-md-3"></div>
           <div class="col-md-4 announce7">
-			<h1>Heading</h1>
-            <p>Paragraph</p>
-				</div>
+            <h3>Fire Alarm</h3>
+            <p>
+              At 8:00 AM, the fire alarm will sound. It will be followed by a
+              message on the intercom. It won't be a pleasant experience.
+            </p>
+          </div>
           <div class="col-md-3"></div>
           <div class="col-md-1"></div>
+        </div>
       </div>
-	</div>
     </main>
     <footer>
       <!-- place footer here -->

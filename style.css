@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
 * {
   margin: 10px;
   padding: 5px;
   box-sizing: border-box;
-  font-family: "Outfit", sans-serif 
+  font-family: "Outfit", sans-serif;
 }
 
 .nav-tabs {
@@ -20,8 +20,87 @@
   font-size: 1.5rem;
 }
 
-.header-image {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%
+a {
+  color: #ffffff;
+  font-size: 1.5rem;
 }
+
+.header-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+.top-image {
+  mask:
+    linear-gradient(0, #0000 50px, #000 0),
+    radial-gradient(50px, #000 calc(100% - 1px), #0000) bottom/92.5px 100px;
+}
+
+.top-image {
+  width: 100%;
+  height: 300px;
+  display: block;
+  object-fit: cover;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  --s: 228px; /* control the size*/
+  --c1: #d0e4e7;
+  --c2: #90ad9a;
+
+  --_g:
+    var(--c1) 0% 5%, var(--c2) 6% 15%, var(--c1) 16% 25%, var(--c2) 26% 35%,
+    var(--c1) 36% 45%, var(--c2) 46% 55%, var(--c1) 56% 65%, var(--c2) 66% 75%,
+    var(--c1) 76% 85%, var(--c2) 86% 95%, #0000 96%;
+  background:
+    radial-gradient(50% 50% at 100% 0, var(--_g)),
+    radial-gradient(50% 50% at 0 100%, var(--_g)),
+    radial-gradient(50% 50%, var(--_g)),
+    radial-gradient(50% 50%, var(--_g)) calc(var(--s) / 2) calc(var(--s) / 2)
+      var(--c1);
+  background-size: var(--s) var(--s);
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
+  color: #3d3991;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.loader {
+  width: 25px;
+  height: 50px;
+  display: grid;
+  color: #000;
+  background:
+    linear-gradient(currentColor 0 0) top/100% 2px,
+    radial-gradient(
+        farthest-side at top,
+        #0000 calc(100% - 2px),
+        currentColor calc(100% - 1px),
+        #0000
+      )
+      top,
+    linear-gradient(currentColor 0 0) bottom/100% 2px,
+    radial-gradient(
+        farthest-side at bottom,
+        #0000 calc(100% - 2px),
+        currentColor calc(100% - 1px),
+        #0000
+      )
+      bottom;
+  background-size:
+    100% 1px,
+    100% 50%;
+  background-repeat: no-repeat;
+  animation: l18 4s infinite linear;
+}
+
+.
