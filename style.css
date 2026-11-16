@@ -4,7 +4,7 @@
   margin: 10px;
   padding: 5px;
   box-sizing: border-box;
-  font-family: "Outfit", sans serif 
+  font-family: "Outfit", sans-serif 
 }
 
 .nav-tabs {
@@ -20,7 +20,7 @@
   font-size: 1.5rem;
 }
 
-header-image {
+.header-image {
   width: 50px;
   height: 50px;
   border-radius: 50%
