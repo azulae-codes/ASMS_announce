@@ -1,14 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
 * {
+  font-family: "Outfit", sans-serif;
   margin: 10px;
+}
+.website-main {
   padding: 5px;
+  margin: 10px;
   box-sizing: border-box;
   font-family: "Outfit", sans-serif;
 }
 
+.container {
+  margin: 0 auto;
+  padding: 20px;
+}
+
 .nav-tabs {
   background-color: #3d3991;
+  font-family: "Outfit", sans-serif;
 }
 
 .footer {
@@ -74,33 +84,51 @@ h3 {
   font-family: "Plus Jakarta Sans", sans-serif;
 }
 
-.loader {
-  width: 25px;
-  height: 50px;
-  display: grid;
-  color: #000;
-  background:
-    linear-gradient(currentColor 0 0) top/100% 2px,
-    radial-gradient(
-        farthest-side at top,
-        #0000 calc(100% - 2px),
-        currentColor calc(100% - 1px),
-        #0000
-      )
-      top,
-    linear-gradient(currentColor 0 0) bottom/100% 2px,
-    radial-gradient(
-        farthest-side at bottom,
-        #0000 calc(100% - 2px),
-        currentColor calc(100% - 1px),
-        #0000
-      )
-      bottom;
-  background-size:
-    100% 1px,
-    100% 50%;
-  background-repeat: no-repeat;
-  animation: l18 4s infinite linear;
+.footer-image {
+  width: 400px;
+  height: auto;
+  display: flex;
 }
 
-.
+.img1 {
+  width: 100px;
+  height: auto;
+  display: block;
+  margin: -10 auto;
+}
+
+.footer {
+  padding: 15px;
+  display: block;
+}
+
+.announce1 {
+  background-image: url("https://www.asms.net/assets/uploads/uploads/courses/_AUTOxAUTO_crop_center-center_75_none_ns/21076/20191023_ASMS_Campus_2082.webp");
+  border-bottom: 8px solid #3d3991;
+  padding-bottom: 20px;
+}
+.announce2 {
+  background-image: url("https://www.asms.net/assets/uploads/uploads/courses/_AUTOxAUTO_crop_center-center_75_none_ns/21076/20191023_ASMS_Campus_2082.webp");
+  border-bottom: 8px solid #3d3991;
+  padding-bottom: 20px;
+}
+.announce3 {
+  border-bottom: 8px solid #3d3991;
+  padding-bottom: 20px;
+}
+.announce4 {
+  border-bottom: 8px solid #3d3991;
+  padding-bottom: 20px;
+}
+.announce5 {
+  border-bottom: 8px solid #3d3991;
+  padding-bottom: 20px;
+}
+.announce6 {
+  border-bottom: 8px solid #3d3991;
+  padding-bottom: 20px;
+}
+.announce7 {
+  border-bottom: 8px solid #3d3991;
+  padding-bottom: 20px;
+}
